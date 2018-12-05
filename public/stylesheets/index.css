@@ -1,21 +1,23 @@
-
+body{
+	width: 100%;
+}
 .logo{
 	text-align: center;
 	margin-top: 5px;
 }
 .container{
+
 	width: 100%;
 	background-color:#F8FBEF;
 	height: 170px;
 
 }
 
-
 li{
 	display: inline;
 	list-style: none;
 	font-size: 18px;
-	margin-right: 70px;}
+	margin-right: 60px;}
 
 
 a{
@@ -31,14 +33,156 @@ span{
 
 #botonlanguage{
 	width: 65px;
-	height: 40;
 	float:right;
 	margin-top: 5px;
 }
+
 .navbar-toggle{
 	background-color: #6E6E6E;
 }
 .icon-bar{
 	background-color:#F8FBEF;
+}
+
+.col-sm-12{
+	padding: 0px;
+}
+#image{
+	width: 100%;
+	max-height: 50vw;
+}
+
+.main{
+	display: inline-flex;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+.advantages{
+	width: 42vw;
+	max-height: 40vw;
+
+}
+
+.thinking{
+	width: 58vw;
+	max-height: 40vw;
+	border-radius: 5px;
+	float: right;
+	position: relative;
+
+
+}
+#personaliza{
+	width: 9vw;
+	height: 3.5vw;
+	position: absolute;
+	font-weight: bold;
+	top: 55%;
+  	left: 46.7%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	padding: 0.876vw 1.752vw;
+  	cursor: pointer;	
+  	font-family: "Gill Sans";
+  	text-decoration: none;
+	color:#0040FF;
+  	font-size: 1.5vw;
+  
+}
+
+#personaliza:hover {
+	font-size: 2.5vw;
+	left: 41%;
+
+  
+}
+
+#pensar{
+	width: 100%;
+	max-height: 40vw;
+}
+
+
+h2{
+	color:#6E6E6E;
+	font-family:"Gill Sans";
+	text-align:left;
+	margin-top: 0.73vw;
+	margin-left: 1.1vw;
+	font-size: 2.5vw;
+
+}
+
+.glyphicon-ok{
+	margin-left: 1.1vw;
+	margin-top:2.2vw;
+	font-size:1vw;
+	color: #0040FF;
+	margin-right: 0.35vw;
+}
+.ok{
+	font-weight: normal;
+	font-size: 1.8vw;
+	color:#6E6E6E;
+}
+
+p{
+	margin-bottom: 0px;
+	margin-left: 0.35vw;
+}
+.social-media{
+
+	width: 100%;
+	max-height: 40vw;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#social{
+	width: 100%;
+	max-height: 35vw;
+	position: absolute;
+}
+
+#custom{
+	max-width: 25vw;
+	max-height: 25vw;
+	float:left;
+	position: relative;
+	margin-right: 0.5vw;
+	margin-top: 1vw;
+	margin-left: 3vw;
+	}
+
+.social-media h1{
+	font-family: "Avenir";
+	position:relative;
+	font-size: 4.5vw;
+	text-align: center;
+	color:#886A08;
+	padding-top: 2vw;
+
+
+}
+.social-media h2{
+	font-family: "Avenir";
+	position:relative;
+	font-size: 4vw;
+	text-align: center;
+	color:#886A08;
+	margin-bottom: 0px;
+}
+.fb-share-button{
+	top: 60%;
+  	left: 20.7%;
+  	margin-top: 2vw;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+
 }
 

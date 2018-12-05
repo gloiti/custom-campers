@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+    	<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<link rel='stylesheet' href='/stylesheets/about.css' />
+  		<title>About</title>
+    
+  </head>
+<body>
+  <div class="container-fluid">
+    <a href="/"><img src="/images/logo.png" class="img-responsive" id="custom"></a>
+  </div>
+  <div class="content">
+    <p>En <strong>Custom Camper</strong> te ofrecemos la posibilidad de camperizar y personalizar tu furgoneta por dentro y por fuera a un <em>precio muy asequible</em>, con materiales de calidad, tras haberle realizado una sustitución de correas, líquidos y filtros en un plazo de 60 días y con la <em>homologación</em> incluida en el precio.</p>
+
+    <p>Si aún no dispones de furgoneta, en <strong>Custom Camper</strong> podrás elegir entre una variedad de <em>vehículos nuevos y de ocasión</em> que tenemos a la venta.</p>
+
+    <p>Además de trabajar con los paneles de madera contrachapada fenólica HPL en sus colores convencionales, nosotros te ofrecemos <em>en exclusiva</em> la aplicación,a estas piezas, de técnicas del mundo de la pintura customizada.</p>
+
+    <p>Échale un vistazo a nuestra galería y empieza a ver tu sueño como una realidad...</p>
+  </div>
+  
+  <div class="container">
+    <section class="board">
+     
+      <% pics.forEach(function(pic) { %>
+        <div class="pictures">
+          <img src="<%= pic.img_url %>" class="img-responsive">
+        </div>
+      <% })%>
+
+    </section>
+  </div>
+
+</body>
+</html>

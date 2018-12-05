@@ -1,0 +1,41 @@
+
+body{
+
+	background-color: #F8FBEF;
+
+}
+
+
+#custom{
+	max-width: 20vw;
+	max-height: 20vw;
+	margin-top: 0.5vw;
+	margin-right: 0.5vw;
+	padding-left: 0px;
+	margin-left: 5vw;
+	}
+
+p{
+	font-size: 1.825vw;
+	font-family:"Gill Sans";
+	color:#6E6E6E;
+}
+h3{
+	font-size:1.6vw;
+}
+#map{
+	width: 60vw;
+	height: 40vw;
+	margin-left: 5vw;
+}
+#maps-form{
+	font-family:"Gill Sans";
+	font-size: 1vw;
+	margin-top: 1vw;
+	padding-left: 5vw;
+}
+#directionsPanel{
+	width:60vw;
+	max-height:40vw;
+	padding-left: 5vw;
+}
