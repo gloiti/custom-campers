@@ -8,8 +8,6 @@ const picsSchema = new Schema({
 
 });
 
-// he creado un modelo que se llama User que utiliza como esquema o plantilla userSchema.
-
 const Pics = mongoose.model("Pics", picsSchema);
 
 module.exports = Pics;

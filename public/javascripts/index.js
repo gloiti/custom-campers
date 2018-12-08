@@ -1,7 +1,6 @@
    
 var images=new Array(
 	'/images/fotos-pasando/foto1.jpg',
-    '/images/fotos-pasando/foto2.jpg',
     '/images/fotos-pasando/foto3.jpg',
     '/images/fotos-pasando/foto4.jpg',
     '/images/fotos-pasando/foto6.jpg'

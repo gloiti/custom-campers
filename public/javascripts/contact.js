@@ -20,6 +20,7 @@ function initMap() {
   });
   var input=document.getElementById("search");
   var autocomplete = new google.maps.places.Autocomplete(input);
+  var directionsDisplay = new google.maps.DirectionsRenderer;
   autocomplete.bindTo('bounds', map);
   autocomplete.addListener('place_changed', function() {
     var place = autocomplete.getPlace();
@@ -58,7 +59,7 @@ function initMap() {
    
 
     var directionsService = new google.maps.DirectionsService;
-    var directionsDisplay = new google.maps.DirectionsRenderer;
+
   
     var directionRequest = {
     origin: {lat:latitude,lng:longitude},
@@ -81,7 +82,9 @@ function initMap() {
     directionsDisplay.setMap(map);
     directionsDisplay.setPanel(document.getElementById('directionsPanel'));
     document.getElementById("search").value="";
+    directionsDisplay.setDirections({routes: []});
 
   })
+    
 };
 

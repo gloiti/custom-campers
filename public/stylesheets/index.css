@@ -1,44 +1,90 @@
-body{
+html,body{
 	width: 100%;
-}
-.logo{
-	text-align: center;
-	margin-top: 5px;
+
+	
 }
 .container{
-
 	width: 100%;
-	background-color:#F8FBEF;
-	height: 170px;
+	max-height: 10vw;
+	justify-content: center;
+	align-items: center;
+	background-color: #F1F8E0;
+}
+
+#logo{
+	margin-top: 0.4vw;
+	margin-left:42.5vw;
+	width: 15vw;
+	height: 10vw;
+}
+#flag{
+	margin-top:0.292vw; 
+	max-width: 1.095vw;
+	max-height: 0.73vw;
+}
+#languague{
+	display: inline-flex;
+	width: 3.5vw;
+	height: 2vw;
+	border-radius:0.3vw;
+	margin-right: 1vw;
+
+}
+@media (max-width: 767px) {
+	
+	#languague{float:right;
+		padding-left: 0px;
+		margin-left: 0.2vw;
+	}
+}
+span{
+	font-weight: bold;
+	font-size: 0.9vw;
+	margin-left: 0.16vw;
+}
+.navbar-nav{
+	margin-top: 0.8vw;
+	width: 100%;
+	box-sizing:none;
+	margin-left: 0vw;
+	background-color: #F1F8E0;
+	border-top-color:#F1F8E0;
+	margin-top: 0px;
+	padding-top: 0.5vw;
+}
+
+@media (max-width: 767px) {
+
+	.navbar-nav{
+		margin-bottom:0px;
+	}
+}
+
+.navbar-nav>li>a{
+	padding-top: 0px;
+	padding-bottom: 0px;
 
 }
 
-li{
+li{ 
+	margin-left:6vw; 
 	display: inline;
 	list-style: none;
-	font-size: 18px;
-	margin-right: 60px;}
+	font-size: 1.31vw;
+	margin-right: 2.38vw;
+}
 
 
 a{
 	color:#6E6E6E;
 	font-family: "Lato";
-}
-
-span{
-	font-weight: bold;
-	font-size: 14px;
-	margin-left: 2px;
-}
-
-#botonlanguage{
-	width: 65px;
-	float:right;
-	margin-top: 5px;
+	margin:0px;
+	padding: 0px;
 }
 
 .navbar-toggle{
 	background-color: #6E6E6E;
+	float:left;
 }
 .icon-bar{
 	background-color:#F8FBEF;
@@ -133,6 +179,41 @@ p{
 	margin-bottom: 0px;
 	margin-left: 0.35vw;
 }
+
+
+h1{
+	font-family:"Avenir";
+	font-size:3.5vw;
+	color:#6E6E6E;
+	font-weight: bold;
+	margin-left:1.2vw;
+
+}
+hr{
+	width: 88%;
+	background-color: black;
+	height: 0.16vw;
+	margin-left:1.1vw;
+	margin-top: 1.46vw;
+	margin-bottom: 1.46vw;
+	
+}
+
+@media (max-width: 1365px) {
+    #adverts{
+    	margin-left: 4vw;
+    }
+    hr{
+    	width: 93%;
+    }
+}
+
+.col-xs-6{
+	width: 43vw;
+	height: 25vw;
+	margin-left:2vw;
+	margin-bottom: 0px;
+}
 .social-media{
 
 	width: 100%;
@@ -166,7 +247,8 @@ p{
 	text-align: center;
 	color:#886A08;
 	padding-top: 2vw;
-
+	margin-top: 1.46vw;
+	margin-bottom: 0.73vw;
 
 }
 .social-media h2{
@@ -177,12 +259,60 @@ p{
 	color:#886A08;
 	margin-bottom: 0px;
 }
-.fb-share-button{
-	top: 60%;
-  	left: 20.7%;
-  	margin-top: 2vw;
-  	transform: translate(-50%, -50%);
-  	-ms-transform: translate(-50%, -50%);
 
+
+.botones{
+	display: inline;
+	width: 14.6vw;
+	margin-top: 1vw;
+}
+.fb-share-button{
+ margin-right: 1vw;
 }
 
+.twitter-share-button{
+	position: absolute !important;
+
+}
+#insta{
+	width: 2vw;
+	height: 2vw;
+	position: absolute !important;
+	float:right;
+	margin-left: 5vw;
+	margin-top: -0.9vw;
+}
+
+#first-footer{
+	position: fixed;
+	bottom:0;
+	background-color:#424242;
+	width: 100%;
+	height: 2.5vw;
+	margin:0px;
+	padding: 0px;
+	text-align: left;
+}
+#first-footer ul{
+	margin:0px;
+	padding: 0px;
+	margin-bottom: 0px;
+	line-height: 1.46vw;
+
+}
+#first-footer li{
+	margin-top: 0.5vw;
+	display: inline-flex;
+	list-style: none;
+	font-size: 1vw;
+	
+
+}
+	
+#first-footer a{
+	color:#848484;
+	font-family: "Avenir"
+	font-size: 1vw;
+	margin-left: 4vw;
+
+}
