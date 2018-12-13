@@ -9,7 +9,6 @@ router.get('/', function(req, res, next) {
 });
 
 router.get("/Contacto",(req,res,next)=>{
-
 	res.render("contact.ejs");
 });
 
@@ -21,14 +20,39 @@ router.get("/About_us",(req,res,next)=>{
 	});
 });
 
-router.get("/modelos",(req,res,next)=>{
-    res.render('modelos');
+router.get("/elige-tu-furgoneta",(req,res,next)=>{
+    res.render('elige');
 
 });
 
-router.get("/Ducato",(req,res,next)=>{
-	res.render("vans/ducato")
-})
+router.get("/extras",(req,res,next)=>{
+    res.render('extras');
+
+});
+
+router.get("/techos",(req,res,next)=>{
+    res.render('techos');
+
+});
+
+router.get("/L2H2",(req,res,next)=>{
+    res.render('ducatos/ducato1');
+
+});
+router.get("/L3H2",(req,res,next)=>{
+    res.render('ducatos/ducato2');
+
+});
+
+router.get("/L4H2",(req,res,next)=>{
+    res.render('ducatos/ducato3');
+
+});
+
+
+
+
+
 
 
 module.exports = router;

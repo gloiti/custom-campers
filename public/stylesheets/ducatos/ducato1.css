@@ -1,8 +1,8 @@
 
-html,body{
-
-	width: 100%;
-	height: 100%;
+body{
+margin:0px;
+padding: 0px;
+height: 100%;
 }
 
 .container{
@@ -21,6 +21,7 @@ html,body{
 	height: 10vw;
 }
 
+
 @media (max-width: 767px) {
 	#languague{float:right;
 		padding-left: 0px;
@@ -33,7 +34,6 @@ span{
 	font-size: 0.9vw;
 	margin-left: 0.16vw;
 }
-
 
 .navbar-nav{
 	margin-top: 0.8vw;
@@ -53,13 +53,6 @@ span{
 	}
 }
 
-@media (min-width: 767px) and (max-width: 1025px) {
-	.nav li{
-		margin-left: 3.5vw;
-	}
-
-}
-
 .navbar-nav>li>a{
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -73,7 +66,12 @@ li{
 	font-size: 1.31vw;
 	margin-right: 2.38vw;
 }
+@media (min-width: 767px) and (max-width: 1025px) {
+	.nav li{
+		margin-left: 3.5vw;
+	}
 
+}
 
 a{
 	color:#6E6E6E;
@@ -82,9 +80,6 @@ a{
 	padding: 0px;
 }
 
-
-
-
 .navbar-toggle{
 	background-color: #6E6E6E;
 	float:left;
@@ -92,54 +87,80 @@ a{
 .icon-bar{
 	background-color:#F8FBEF;
 }
-.container-fluid{
-	padding-right: 0px;
-	padding-left: 0px;
-	
-}
-
-.main{
-	width: 100vw;
-	display: inline-flex;
-}
-.content{
-	margin-top: 6vw;
-	width: 70vw;
-}
-#mecanico{
-	width: 28vw;
-	height: 26vw;
-	float: right;
-	margin-top:12vw;
-	margin-left: 11vw;
+.elección{
+	width: 60vw;
+	margin-top: 8vw;
+	margin-left: 5vw;
 }
 p{
 	font-family:"Gill Sans";
 	color:#6E6E6E;
-	font-size: 1.46vw;
-	margin-top: 2vw;
+	font-size: 1.6vw;
+}
+
+.simulator{
+	margin-top: 1.5vw;
+	width: 100vw;
 	margin-left: 5vw;
 }
-
-.content a{
+#simul{
+	width:42.34vw; 
+	height:23.8vw;
+}
+h2{
 	font-family:"Gill Sans";
-	color:#0040FF;
-	font-size: 1.46vw;
+	font-size: 3.5vw;
+	margin-left:5vw;
+	color:black;
+	margin-bottom: 0.73vw;
 }
 
+h3{
+	font-family:"Gill Sans";
+    margin-bottom: 0.73vw;
+	font-size: 2.2vw;
+	color:#886A08;
+	text-align: left;
+	margin-left: 0vw;
+
+}
+hr{
+	margin-left: 5vw;
+	width: 90%;
+	background-color: black;
+	height: 0.16vw;
+	margin-top: 1.46vw;
+	margin-bottom: 1.46vw;
+}
 .row{
-	margin-top: 0.5vw;
+	margin-left: 5vw;
+	margin-top: 1vw;
+}
+.col-xs-3{
+	width: 30vw;
+	margin-left: 1vw;
+}
+.option{
+	display: list-item;
+}
+.row p{
 	margin-left: 2vw;
 }
-.col-xs-4{
-	width: 48vw;
-	height: 38vw;
-	margin-left: 0.5vw;
-	padding-right: 0px;
-    padding-left: 0px;
-    margin-top: 0.5vw;
+.last{
+	margin-top: 1.5vw;
+	margin-bottom:2.7vw;
+	background-color: #F1F8E0;
 }
+.last p{
+	margin-top: 0.5vw;
+	font-size: 2vw;
+	margin-left: 5vw;
+}
+.last a{
 
+	font-size: 2vw;
+	color: blue;
+}
 #first-footer{
 	position: fixed;
 	bottom:0;
@@ -161,10 +182,10 @@ p{
 	margin-top: 0.5vw;
 	display: inline-flex;
 	list-style: none;
-	font-size: 1vw;	
-	color:#848484;
-}
+	font-size: 1vw;
+	
 
+}
 	
 #first-footer a{
 	color:#848484;

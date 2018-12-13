@@ -66,6 +66,7 @@ span{
 
 }
 
+
 li{ 
 	margin-left:6vw; 
 	display: inline;
@@ -74,6 +75,12 @@ li{
 	margin-right: 2.38vw;
 }
 
+
+@media (min-width: 767px) and (max-width: 1363px) {
+	li{
+		margin-left:4vw;
+	}
+}
 
 a{
 	color:#6E6E6E;
@@ -136,6 +143,7 @@ a{
   	text-decoration: none;
 	color:#0040FF;
   	font-size: 1.5vw;
+  	padding-bottom: 0.23944vw;
   
 }
 
@@ -145,7 +153,12 @@ a{
 
   
 }
+@media (min-width: 318px) and (max-width: 767px){
+	#personaliza{
 
+		top: 47% !important;
+	}
+}
 #pensar{
 	width: 100%;
 	max-height: 40vw;
@@ -198,13 +211,50 @@ hr{
 	margin-bottom: 1.46vw;
 	
 }
+h3{
+	color:#F7D358;
+	font-family:"Gill Sans";
+	text-align:left;
+	margin-top: 8vw;
+	text-align:center;
+	font-size: 2.5vw;
+	font-weight: bold;
+	margin-bottom: 0.73vw;
+
+}
+.btn-info{
+	width:9vw; 
+	height:2.7vw;
+	margin-left: 16vw;
+	border-radius: 0.2vw;
+	padding-left: 1.095vw;
+	padding-right: 1.095vw;
+	padding-top: 0.73vw;
+	padding-bottom: 0.73vw;
+
+}
+@media (min-width: 319px) and (max-width: 767px) {
+	.btn-info{
+		margin-left: 13.5vw;
+	}
+}
+
+.btn-info p{	
+	text-align:center;
+	font-family:"Gill Sans";
+	color:white;
+	font-size: 1.46vw;
+	padding-left: 0vw;
+	padding-right: 0vw;
+	line-height: 0.584vw;
+}
 
 @media (max-width: 1365px) {
     #adverts{
-    	margin-left: 4vw;
+    	margin-left: 0vw;
     }
     hr{
-    	width: 93%;
+    	width: 89%;
     }
 }
 
@@ -213,6 +263,20 @@ hr{
 	height: 25vw;
 	margin-left:2vw;
 	margin-bottom: 0px;
+}
+#hawai{
+	width: 30vw;
+	height: 20vw;
+}
+.modal-body p{
+	font-family:"Gill Sans";
+	color:#6E6E6E;
+	font-size: 1.46vw;
+}
+.modal-body a{
+	font-family:"Gill Sans";
+	color:#0040FF;
+	font-size: 1.46vw;
 }
 .social-media{
 
