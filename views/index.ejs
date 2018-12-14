@@ -8,6 +8,7 @@
   		<meta http-equiv="X-UA-Compatible" content="ie=edge">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script type="text/javascript" src="/javascripts/index.js"></script>
   		<link rel='stylesheet' href='/stylesheets/index.css' />
@@ -50,12 +51,13 @@
   				
   		<div class="collapse navbar-collapse">
   			<ul class="nav navbar-nav navbar-right">
-    			<li class="first"><a href="/elige-tu-furgoneta">Elige tu furgoneta</a></li>
-  			  <li class="second"><a href="/techos">Techos elevables</a></li>
-          <li class="third"><a href="/extras">Extras</a></li>
- 				  <li class="third"><a href="/About_us">Conócenos</a></li>
- 				  <li class="fourth"><a href="/Contacto">Contacto</a></li>
-          <li class="fifth"><button id="languague"><img src="/images/flag.png" class="img-responsive" id="flag"><span>FR</span></button></li>
+    			<li class="first"><a href="/elige-tu-furgoneta"><%=translation.nav_first%></a></li>
+  			  <li class="second"><a href="/techos"><%=translation.nav_second%></a></li>
+          <li class="third"><a href="/extras"><%=translation.nav_third%></a></li>
+ 				  <li class="third"><a href="/About_us"><%=translation.nav_fourd%></a></li>
+ 				  <li class="fourth"><a href="/Contacto"><%=translation.nav_fifth%></a></li>
+          <li class="fifth"><a id="languague" class="<%=(lang=="fr"?"active":"")%>" href="/?clang=fr" ><img src="/images/flag.png" class="img-responsive" id="flag"></a></li>
+          <li class="sith"><a id="languague" class="<%=(lang=="es"?"active":"")%>" href="/?clang=es" ><img src="/images/flag1.png" class="img-responsive" id="flag"></a></li>
        	</ul>
   		</div>
   	</div>
@@ -95,7 +97,7 @@
       <p><i class="glyphicon glyphicon-ok"></i><span class="ok">Estamos especializados en pintura customizada</span></p>
       <p><i class="glyphicon glyphicon-ok"></i><span class="ok">Simulador 3D de furgonetas</span></p>
       <p><i class="glyphicon glyphicon-ok"></i><span class="ok">Furgonetas homologadas</span></p>
-      <p><i class="glyphicon glyphicon-ok"></i><span class="ok">Entregadas en un plazo de 60 días</span></p>
+      <p><i class="glyphicon glyphicon-ok"></i><span class="ok">Entregadas en un plazo máximo de 60 días</span></p>
     </div>
     <div class="thinking">
       <img src="/images/fotos-pensar/pensando2.jpg" class="img-responsive" id="pensar">
@@ -194,7 +196,8 @@
       <li><a href="https://customcamper.es/politica-de-cookies/">Política de cookies</a></li>
     </ul>         
   </div>
-<script type="text/javascript" src="/javascripts/main.js"></script>
+ 
+
 </body>
 
 </html>

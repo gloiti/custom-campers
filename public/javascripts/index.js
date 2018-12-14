@@ -1,4 +1,4 @@
-   
+ 
 var images=new Array(
 	'/images/fotos-pasando/foto1.jpg',
     '/images/fotos-pasando/foto3.jpg',
@@ -30,10 +30,17 @@ function ImagePassing(){
     }
 }
    
-
 onload=function()
     
     {
         ImagePassing();
         setInterval(ImagePassing,4000);
     }
+
+
+
+
+
+
+
+

@@ -19,23 +19,23 @@ html,body{
 }
 #flag{
 	margin-top:0.292vw; 
-	max-width: 1.095vw;
-	max-height: 0.73vw;
+	max-width: 1.295vw;
+	max-height: 0.85vw;
 }
 #languague{
 	display: inline-flex;
 	width: 3.5vw;
 	height: 2vw;
 	border-radius:0.3vw;
-	margin-right: 1vw;
+	margin-right: 0.1vw;
 
 }
 @media (max-width: 767px) {
 	
 	#languague{float:right;
-		padding-left: 0px;
-		margin-left: 0.2vw;
+		
 	}
+
 }
 span{
 	font-weight: bold;
@@ -68,17 +68,31 @@ span{
 
 
 li{ 
-	margin-left:6vw; 
+	margin-left:5vw; 
 	display: inline;
 	list-style: none;
 	font-size: 1.31vw;
 	margin-right: 2.38vw;
 }
+.fifth{
+	margin-right: 0vw;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.sith{
+	margin-left: 0vw;
+	margin-right: 0vw;
+	padding-left: 0px;
 
+}
+#languague{
+	padding-right: 0px;
+	padding-left: 0px;
+}
 
 @media (min-width: 767px) and (max-width: 1363px) {
 	li{
-		margin-left:4vw;
+		margin-left:3vw;
 	}
 }
 

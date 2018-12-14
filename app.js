@@ -3,11 +3,10 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const mongoose = require('mongoose');
-
+var i18n=require("i18n-express");
+const session = require("express-session");
 var indexRouter = require('./routes/index');
 
-mongoose.connect("mongodb://localhost/custom-campers");
 var app = express();
 
 // view engine setup
@@ -18,6 +17,19 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(session({
+  secret: 'secret',
+  saveUninitialized: true,
+  resave: true
+}));
+ 
+app.use(i18n({
+  translationsPath: path.join(__dirname, 'i18n'),
+  defaultLang: "es", // <--- use here. Specify translations files path.
+  siteLangs: ["es","fr"],
+  textsVarName: 'translation'
+}));
 
 app.use('/', indexRouter);
 
