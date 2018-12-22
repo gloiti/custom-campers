@@ -60,17 +60,16 @@ span{
 }
 
 li{ 
-	margin-left:6vw; 
+	margin-left:5vw; 
 	display: inline;
 	list-style: none;
 	font-size: 1.31vw;
 	margin-right: 2.38vw;
 }
-@media (min-width: 767px) and (max-width: 1025px) {
-	.nav li{
-		margin-left: 3.5vw;
+@media (min-width: 767px) and (max-width: 1363px) {
+	li{
+		margin-left:3vw;
 	}
-
 }
 
 a{
@@ -149,7 +148,7 @@ h4{
 
   background:white;
   width:100vw;
-  height:55vw;
+  height:63vw;
   padding:5.11vw;
   margin-top: 4.46vw;
   border-radius:6.13vw;
@@ -159,17 +158,22 @@ h4{
 .extra{
 	background-color:white;
 	width:13.5vw;
-	height:9.95vw;
+	height:12.0vw;
 	float:left;
 	margin:0.73vw;
 	padding:1.095vw;
-
+	line-height: 1.46vw;
 
 }
 .glyphicon-info-sign{
-	color:#FA5858;
-	width: 3vw;
-	height: 2.5vw;
+	font-size: 1.5vw;
+	margin-left: 4.6vw;
+}
+.glyphicon-info-sign:hover{
+	color:blue;
+}
+.info-extras{
+	color:#585858;
 }
 .footer-info{
 	width: 90vw;

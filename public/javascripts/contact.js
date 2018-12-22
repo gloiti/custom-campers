@@ -30,8 +30,8 @@ function initMap() {
     }
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
-      var latitude=(place.geometry.viewport.l.j+place.geometry.viewport.l.l)/2;
-      var longitude=(place.geometry.viewport.j.j+place.geometry.viewport.j.l)/2;
+      var latitude=(place.geometry.viewport.ma.j+place.geometry.viewport.ma.l)/2;
+      var longitude=(place.geometry.viewport.fa.j+place.geometry.viewport.fa.l)/2;
       var origin = new google.maps.Marker({
       position: {
         lat: latitude,

@@ -143,12 +143,10 @@ a{
 
 }
 #personaliza{
-	width: 9vw;
-	height: 3.5vw;
 	position: absolute;
 	font-weight: bold;
 	top: 55%;
-  	left: 46.7%;
+  	left: 49.5%;
   	transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
   	padding: 0.876vw 1.752vw;
@@ -163,14 +161,14 @@ a{
 
 #personaliza:hover {
 	font-size: 2.5vw;
-	left: 41%;
+	left: 49.5%;
 
   
 }
 @media (min-width: 318px) and (max-width: 767px){
 	#personaliza{
 
-		top: 47% !important;
+		top: 42%;
 	}
 }
 #pensar{

@@ -59,17 +59,16 @@ span{
 }
 
 li{ 
-	margin-left:6vw; 
+	margin-left:5vw; 
 	display: inline;
 	list-style: none;
 	font-size: 1.31vw;
 	margin-right: 2.38vw;
 }
-@media (min-width: 767px) and (max-width: 1025px) {
-	.nav li{
-		margin-left: 3.5vw;
+@media (min-width: 767px) and (max-width: 1363px) {
+	li{
+		margin-left:3vw;
 	}
-
 }
 
 a{
@@ -146,7 +145,7 @@ hr{
 	margin-left: 2vw;
 }
 .last{
-	margin-top: 1.5vw;
+	margin-top: 0vw;
 	margin-bottom:2.7vw;
 	background-color: #F1F8E0;
 }

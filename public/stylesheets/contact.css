@@ -45,9 +45,6 @@ span{
 	}
 }
 
-
-
-
 .navbar-nav>li>a{
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -55,17 +52,16 @@ span{
 }
 
 li{ 
-	margin-left:6vw; 
+	margin-left:5vw; 
 	display: inline;
 	list-style: none;
 	font-size: 1.31vw;
 	margin-right: 2.38vw;
 }
-@media (min-width: 767px) and (max-width: 1025px) {
-	.nav li{
-		margin-left: 3.5vw;
+@media (min-width: 767px) and (max-width: 1363px) {
+	li{
+		margin-left:3vw;
 	}
-
 }
 
 
@@ -115,18 +111,29 @@ h3{ margin-left: 7vw;
 	margin-top: 0.8vw;
 	color:#0404B4;
 }
+
 #map{
 	width: 60vw;
 	height: 40vw;
 	margin-left: 5vw;
 	margin-bottom: 5vw;
 }
+
 #maps-form{
-	font-family:"Gill Sans";
-	font-size: 1vw;
 	margin-top: 1vw;
 	padding-left: 5vw;
 }
+#search{
+	width: 57.5vw;
+	font-size: 16px;
+	font-family:"Gill Sans";
+}
+
+.glyphicon-search{
+	line-height: 1vw;
+	font-size: 16px;
+}
+
 #directionsPanel{
 	width:60vw;
 	max-height:40vw;

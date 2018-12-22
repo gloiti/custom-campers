@@ -35,11 +35,11 @@
           
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="first"><a href="/elige-tu-furgoneta">Elige Tu Furgoneta</a></li>
-          <li class="second"><a href="/techos">Techos Elevables</a></li>
-          <li class="active"><a href="/extras">Extras</a></li>
-          <li class="third"><a href="/About_us">Conócenos</a></li>
-          <li class="fourth"><a href="/Contacto">Contacto</a></li>
+          <li class="first"><a href="/elige-tu-furgoneta"><%=translation.nav_first%></a></li>
+          <li class="second"><a href="/techos"><%=translation.nav_second%></a></li>
+          <li class="active"><a href="/extras"><%=translation.nav_third%></a></li>
+          <li class="third"><a href="/About_us"><%=translation.nav_fourd%></a></li>
+          <li class="fourth"><a href="/Contacto"><%=translation.nav_fifth%></a></li>
           <li class="fifth"><a href="/"><i class="glyphicon glyphicon-home"></i></a></li>
         </ul>
       </div>
@@ -47,41 +47,599 @@
   </nav>
 
   <div class="extras_board">
-    <div class="extra"><h2>MICROONDAS</h2><p>440€</p></div>
-    <div class="extra"><h2>Inversor 230V</h2><p>Desde 750€</p></div>
-    <div class="extra"><h2>Peldaño eléctrico</h2><p>560€</p></div>
-    <div class="extra"><h2>Tv comedor</h2><p>380€</p></div>
-    <div class="extra"><h2>Antena TDT</h2><p>310€</p></div>
-    <div class="extra"><h2>Tv dormitorio</h2><p>380€</p></div>
-    <div class="extra"><h2>Kit Solar 150W</h2><p>Desde 516€</p></div>
-    <div class="extra"><h2>Ventanas correderas laterales</h2><p>30€</p></div>
-    <div class="extra"><h2>Ventana dormitorio</h2><p>480€</p></div>
-    <div class="extra"><h2>Ventana puerta trasera</h2><p>530€</p></div>
-    <div class="extra"><h2>Claraboyas</h2><p>480€</p></div>
-    <div class="extra"><h2>Válvula automática</h2><p>190€</p></div>
-    <div class="extra"><h2>Vitrocerámica</h2><p>1.480€</p></div>
-    <div class="extra"><h2>Aislamiento reforzado</h2><p>590€</p></div>
-    <div class="extra"><h2>Asiento cama</h2><p>4.000€</p></div>
-    <div class="extra"><h2>Cama eléctrica</h2><p>1.600€</p></div>
-    <div class="extra"><h2>Toldos</h2><p>Desde 660€</p></div>
-    <div class="extra"><h2>Aire acondicionado</h2><p>1.896€</p></div>
-    <div class="extra"><h2>WC integral</h2><p>360€</p></div>
-    <div class="extra"><h2>Kit viajan 4</h2><p>980€</p></div>
-    <div class="extra"><h2>Kit duermen 4</h2><p>770€</p></div>
+    <div class="extra">
+        <h2><%=translation.extra_1%></h2><p>440€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal1"></i>
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal1%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_2%></h2><p><%=translation.precio_1%> 750€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal2"></i>
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal2%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_3%></h2><p>560€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal3"></i>
+      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal3%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_4%></h2><p>380€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal4"></i>
+
+      <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal4%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_5%></h2><p>310€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal5"></i>
+            <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal5%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_6%></h2><p>380€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal6"></i>
+        <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal6%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_7%></h2><p><%=translation.precio_1%> 516€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal7"></i>
+        <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal7%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_8%></h2><p>30€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal8"></i>
+
+        <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal8%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_9%></h2><p>480€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal9"></i>
+        <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal9%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_10%></h2><p>530€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal10"></i>
+        <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal10%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_11%></h2><p>480€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal11"></i>
+        <div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal11%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_12%></h2><p>190€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal12"></i>
+        <div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal12%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_13%></h2><p>1.480€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal13"></i>
+        <div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal13%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_14%></h2><p>590€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal14"></i>
+        <div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras">A<%=translation.extra_modal14%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_15%></h2><p>4.000€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal15"></i>
+        <div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal15%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_16%></h2><p>1.600€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal16"></i>
+        <div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal16%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_17%></h2><p><%=translation.precio_1%> 660€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal17"></i>
+        <div class="modal fade" id="myModal17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal17%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_18%></h2><p>1.896€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal18"></i>
+
+        <div class="modal fade" id="myModal18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal18%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_19%></h2><p>360€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal19"></i>
+
+        <div class="modal fade" id="myModal19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal19%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_20%></h2><p>980€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal20"></i>
+       <div class="modal fade" id="myModal20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal20%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra">
+      <h2><%=translation.extra_21%></h2><p>770€</p><i class="glyphicon glyphicon-info-sign" type="button" data-toggle="modal" data-target="#myModal21"></i>
+
+        <div class="modal fade" id="myModal21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      <!--  MODAL HEADER -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+      
+      <!--  MODAL BODY -->
+            <div class="modal-body">
+
+              <p class="info-extras"><%=translation.extra_modal21%></p>     
+            </div>
+      
+      <!--  MODAL FOOTER -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><%=translation.anuncio_4%></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
   </div>
   <div class="footer-info">
-    <h4><i class="glyphicon glyphicon-bullhorn"></i>Recuerda que en <strong>Custom Camper</strong> somos especialistas en pintura customizada y podemos dar un acabado totalmente personalizado a tu furgoneta incluyendo cualquier diseño o cualquier logo.</h4>
+    <h4><i class="glyphicon glyphicon-bullhorn"></i> <%=translation.extra_info1%> <strong><%=translation.modal_1b%></strong> <%=translation.extra_info2%></h4>
 
-    <h4> Ponte en <a href="/contacto" id="contacto">contacto</a> con nosotros para ultimar los detalles de tu proyecto...¡Te estamos esperando!</h4>
+    <h4><%=translation.extra_info3%> <a href="/Contacto" id="contacto"> <%=translation.extra_info4%></a> <%=translation.extra_info5%></h4>
   </div> 
 
  
   <div class="row" id="first-footer">
     <ul>
-      <li><a href="https://customcamper.es/aviso-legal/">Aviso legal</a></li>
-      <li><a href="https://customcamper.es/politica-de-privacidad/">Política de privacidad</a></li>
-      <li><a href="https://customcamper.es/politica-de-cookies/">Política de cookies</a></li>
+      <li><a href="https://customcamper.es/aviso-legal/"><%=translation.legal_1%></a></li>
+      <li><a href="https://customcamper.es/politica-de-privacidad/"><%=translation.legal_2%></a></li>
+      <li><a href="https://customcamper.es/politica-de-cookies/"><%=translation.legal_3%></a></li>
     </ul>         
   </div>
 
