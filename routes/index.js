@@ -13,11 +13,7 @@ router.get("/Contacto",(req,res,next)=>{
 });
 
 router.get("/About_us",(req,res,next)=>{
-
-	Pics.find({},(err, pics) => {
-    res.render('about', {pics});
-	
-	});
+    res.render('about');
 });
 
 router.get("/elige-tu-furgoneta",(req,res,next)=>{
