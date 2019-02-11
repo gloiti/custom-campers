@@ -31,7 +31,7 @@ function initMap() {
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
       var latitude=(place.geometry.viewport.ma.j+place.geometry.viewport.ma.l)/2;
-      var longitude=(place.geometry.viewport.fa.j+place.geometry.viewport.fa.l)/2;
+      var longitude=(place.geometry.viewport.ga.j+place.geometry.viewport.ga.l)/2;
       var origin = new google.maps.Marker({
       position: {
         lat: latitude,
